@@ -12,7 +12,7 @@ columns_to_remove = categorical_cols.union(['id'])
 df = df.drop(columns=columns_to_remove)
 
 
-pdf.head()
+df.head()
 
 df.describe()
 
