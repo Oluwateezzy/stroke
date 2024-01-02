@@ -4,7 +4,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix
 from keras.models import Sequential
 from keras.layers import Dense
-
+import os
+print("Current Working Directory:", os.getcwd())
 # Load the dataset
 df = pd.read_csv('data/healthcare-dataset-stroke-data.csv')
 
