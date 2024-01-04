@@ -15,3 +15,4 @@ data = {
 df = pd.DataFrame(data)
 
 df.to_csv('data/raw_data.csv', index=False)
+print('Completed')
